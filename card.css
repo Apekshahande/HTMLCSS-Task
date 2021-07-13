@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    
+  }
+  
+  body {
+    font-family:Roboto ;
+    background-color: rgb(97, 3, 77) ;
+  }
+  /* Float three columns side by side */
+  .column {
+    float: left;
+    width: 25%;
+    padding:0 65px;
+    /* padding: 18px; */
+  }
+   
+  img{
+    width: 100%;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    }
+
+.text{
+    padding :0  30px;
+    /* margin:25px; */
+    
+}
+
+h1{
+    font-size:20px;
+}
+
+p{
+    font-size: 15px;
+}
+
+.price{
+    margin-top: 2px;
+    font-size: 35px;
+    float: left;
+}
+
+.basketimg{
+    padding: 0px;
+    margin-top: -10px;
+    margin-left: 50px;
+    width: 60px;
+
+}
